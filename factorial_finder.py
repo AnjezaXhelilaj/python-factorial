@@ -19,14 +19,13 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-# Initialize the factorial result to 1
-factorial = 1
 
-# Initialize the input number to 6
-number = 6
+def calculate_factorial(number):
+    factorial = 1;
 
-# Loop from 1 to number (inclusive) and multiply factorial by each number
-for i in range(1, number + 1):
-    factorial *= i
+    for i in range(1,number + 1):
+        factorial *= i
 
-print(f"The factorial of {number} is {factorial}")
+print(calculate_factorial(5))
+print(calculate_factorial(7))
+print(calculate_factorial(10))
