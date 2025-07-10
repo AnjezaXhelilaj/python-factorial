@@ -20,14 +20,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-def calculate_factorial(number):
-    factorial = 1;
+import math
 
-    for i in range(1,number + 1):
-        factorial *= i
-    
-    return factorial
-
-print(calculate_factorial(5))
-print(calculate_factorial(7))
-print(calculate_factorial(10))
+number = 5
+result = math.factorial(number)
+print(f"The factorial of {number} is {result})
