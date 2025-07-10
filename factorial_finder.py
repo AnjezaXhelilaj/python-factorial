@@ -25,6 +25,8 @@ def calculate_factorial(number):
 
     for i in range(1,number + 1):
         factorial *= i
+    
+    return factorial
 
 print(calculate_factorial(5))
 print(calculate_factorial(7))
