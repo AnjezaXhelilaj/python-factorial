@@ -36,3 +36,5 @@ git clone https://github.com/new2code/python-factorial.git
     ```shell copy
     py factorial.py
     ```
+
+    OMGG
